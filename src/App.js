@@ -17,9 +17,8 @@ function App() {
   const analyzeButton = document.createElement('button');
   analyzeButton.textContent = 'Analisar Imagem';
   analyzeButton.addEventListener('click', () => {
-    const imageUrl = urlInput.value;
-    // Lógica para analisar a imagem
-  });
+    
+    });
   document.body.appendChild(analyzeButton);
 
   // Botão para disparar a geração de imagem
